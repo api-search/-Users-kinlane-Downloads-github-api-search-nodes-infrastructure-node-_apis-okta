@@ -11,7 +11,7 @@ apis:
     properties:
       - url: https://developer.okta.com/docs/reference/
         type: Documentation
-      - url: properties/okta-openapi-original.yml
+      - url: openapiokta-openapi-original.yml
         type: OpenAPI
     description: >-
       The Core Okta API is the primary way that apps and services interact with
