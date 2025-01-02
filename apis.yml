@@ -2,21 +2,6 @@ aid: okta
 url: >-
   https://raw.githubusercontent.com/api-search/infrastructure/main/_apis/okta/apis.md
 apis:
-  - aid: okta:okta-api
-    name: Okta API
-    tags: []
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.okta.com/docs/reference/
-    properties:
-      - url: https://developer.okta.com/docs/reference/
-        type: Documentation
-      - url: openapi/okta-openapi-original.yml
-        type: OpenAPI
-    description: |-
-      The Core Okta API is the primary way that apps and services interact with
-      Okta. You can use it to implement basic auth functions such as signing in
-      your users and programmatically managing your Okta objects.
   - aid: okta:okta-apps-api
     name: Okta Apps API
     tags: []
@@ -28,10 +13,18 @@ apis:
         type: OpenAPI
       - url: https://developer.okta.com/docs/reference/api/apps/
         type: Documentation
-    description: |-
-      The Core Okta API is the primary way that apps and services interact with
-      Okta. You can use it to implement basic auth functions such as signing in
-      your users and programmatically managing your Okta objects.
+    description: >-
+      The Okta Apps API is a powerful tool that allows developers to easily
+      integrate and manage their applications within the Okta platform. With
+      this API, users can authenticate and authorize access to multiple
+      applications, securely store user credentials, and streamline the user
+      experience with single sign-on capabilities. Developers can leverage the
+      Okta Apps API to customize and automate various aspects of their
+      applications, such as user provisioning, group management, and application
+      lifecycle management. By providing a comprehensive suite of features and
+      functionalities, the Okta Apps API simplifies the development and
+      management of applications, ultimately enhancing security, scalability,
+      and user experience.
   - aid: okta:okta-authenticators-api
     name: Okta Authenticators API
     tags: []
@@ -44,11 +37,18 @@ apis:
       - url: >-
           https://developer.okta.com/docs/api/openapi/okta-management/management/tag/Authenticator/
         type: Documentation
-    description: |-
-
-      The Core Okta API is the primary way that apps and services interact with
-      Okta. You can use it to implement basic auth functions such as signing in
-      your users and programmatically managing your Okta objects.
+    description: >-
+      The Okta Authenticators API is a tool that enables businesses to easily
+      integrate secure authentication processes into their applications and
+      systems. This API allows developers to implement multi-factor
+      authentication methods, such as SMS verification codes, push
+      notifications, biometric identification, and hardware tokens, to ensure
+      that only authorized users are granted access to sensitive data and
+      resources. By utilizing the Okta Authenticators API, organizations can
+      enhance the security of their platforms and protect against unauthorized
+      access and fraudulent activities. This API provides a flexible and
+      customizable solution for businesses looking to bolster their security
+      measures and safeguard their digital assets.
   - aid: okta:okta-authorizationservers-api
     name: Okta Authorization Servers API
     tags: []
@@ -58,8 +58,8 @@ apis:
     properties:
       - url: openapi/okta-authorizationservers-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/authorization-servers/
+      - url: https://developer.okta.com/docs/reference/api/authorization-servers/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -74,8 +74,8 @@ apis:
     properties:
       - url: openapi/okta-brands-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/brands/
+      - url: https://developer.okta.com/docs/reference/api/brands/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -90,8 +90,8 @@ apis:
     properties:
       - url: openapi/okta-domains-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/domains/
+      - url: https://developer.okta.com/docs/reference/api/domains/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -106,8 +106,8 @@ apis:
     properties:
       - url: openapi/okta-eventhooks-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/event-hooks/
+      - url: https://developer.okta.com/docs/reference/api/event-hooks/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -122,8 +122,8 @@ apis:
     properties:
       - url: openapi/okta-features-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/features/
+      - url: https://developer.okta.com/docs/reference/api/features/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -138,8 +138,8 @@ apis:
     properties:
       - url: openapi/okta-groups-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/groups/
+      - url: https://developer.okta.com/docs/reference/api/groups/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -154,8 +154,8 @@ apis:
     properties:
       - url: openapi/okta-idps-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/idps/
+      - url: https://developer.okta.com/docs/reference/api/idps/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -170,8 +170,8 @@ apis:
     properties:
       - url: openapi/okta-inlinehooks-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/concepts/inline-hooks/
+      - url: https://developer.okta.com/docs/concepts/inline-hooks/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -186,8 +186,8 @@ apis:
     properties:
       - url: openapi/okta-logs-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/system-log/
+      - url: https://developer.okta.com/docs/reference/api/system-log/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -202,8 +202,8 @@ apis:
     properties:
       - url: openapi/okta-mappings-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/mappings/
+      - url: https://developer.okta.com/docs/reference/api/mappings/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -218,8 +218,8 @@ apis:
     properties:
       - url: openapi/okta-meta-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/api/
+      - url: https://developer.okta.com/docs/api/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -234,8 +234,8 @@ apis:
     properties:
       - url: openapi/okta-org-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/org/
+      - url: https://developer.okta.com/docs/reference/api/org/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -250,8 +250,8 @@ apis:
     properties:
       - url: openapi/okta-policies-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/policy/
+      - url: https://developer.okta.com/docs/reference/api/policy/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -266,8 +266,8 @@ apis:
     properties:
       - url: openapi/okta-roles-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/roles/
+      - url: https://developer.okta.com/docs/reference/api/roles/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -282,8 +282,8 @@ apis:
     properties:
       - url: openapi/okta-sessions-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/sessions/
+      - url: https://developer.okta.com/docs/reference/api/sessions/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -298,8 +298,8 @@ apis:
     properties:
       - url: openapi/okta-templates-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/templates/
+      - url: https://developer.okta.com/docs/reference/api/templates/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -314,8 +314,8 @@ apis:
     properties:
       - url: openapi/okta-threats-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/threat-insight/
+      - url: https://developer.okta.com/docs/reference/api/threat-insight/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -330,8 +330,8 @@ apis:
     properties:
       - url: openapi/okta-trustedorigins-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/trusted-origins/
+      - url: https://developer.okta.com/docs/reference/api/trusted-origins/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -346,8 +346,8 @@ apis:
     properties:
       - url: openapi/okta-users-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/users/
+      - url: https://developer.okta.com/docs/reference/api/users/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
@@ -362,8 +362,8 @@ apis:
     properties:
       - url: openapi/okta-zones-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.okta.com/docs/reference/api/zones/
+      - url: https://developer.okta.com/docs/reference/api/zones/
+        type: Documentation
     description: |-
 
       The Core Okta API is the primary way that apps and services interact with
