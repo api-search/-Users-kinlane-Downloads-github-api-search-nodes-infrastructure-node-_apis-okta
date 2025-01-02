@@ -18,6 +18,314 @@ apis:
       The Core Okta API is the primary way that apps and services interact with
       Okta. You can use it to implement basic auth functions such as signing in
       your users and programmatically managing your Okta objects.
+  - aid: okta:okta-apps-api
+    name: Okta Apps API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-apps-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-authenticators-api
+    name: Okta Authenticators API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-authenticators-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-authorizationservers-api
+    name: Okta Authorizationservers API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-authorizationservers-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-brands-api
+    name: Okta Brands API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-brands-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-domains-api
+    name: Okta Domains API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-domains-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-eventhooks-api
+    name: Okta Eventhooks API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-eventhooks-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-features-api
+    name: Okta Features API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-features-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-groups-api
+    name: Okta Groups API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-groups-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-idps-api
+    name: Okta Idps API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-idps-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-inlinehooks-api
+    name: Okta Inlinehooks API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-inlinehooks-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-logs-api
+    name: Okta Logs API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-logs-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-mappings-api
+    name: Okta Mappings API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-mappings-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-meta-api
+    name: Okta Meta API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-meta-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-org-api
+    name: Okta Org API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-org-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-policies-api
+    name: Okta Policies API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-policies-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-roles-api
+    name: Okta Roles API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-roles-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-sessions-api
+    name: Okta Sessions API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-sessions-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-templates-api
+    name: Okta Templates API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-templates-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-threats-api
+    name: Okta Threats API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-threats-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-trustedorigins-api
+    name: Okta Trustedorigins API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-trustedorigins-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-users-api
+    name: Okta Users API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-users-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
+  - aid: okta:okta-zones-api
+    name: Okta Zones API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://developer.okta.com/docs/reference/
+    properties:
+      - type: OpenAPI
+        url: openapi/okta-zones-api-openapi.yml
+    description: |-
+
+      The Core Okta API is the primary way that apps and services interact with
+      Okta. You can use it to implement basic auth functions such as signing in
+      your users and programmatically managing your Okta objects.
 name: Okta
 tags:
   - Authentication
